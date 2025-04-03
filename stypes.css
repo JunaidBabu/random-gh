@@ -35,6 +35,91 @@ body {
     margin-top: 8px;
 }
 
+.welcome-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.join-game-section {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.game-code-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.primary-button, .secondary-button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.primary-button {
+    background-color: #0088cc;
+    color: white;
+    width: 100%;
+}
+
+.primary-button:hover {
+    background-color: #0077b3;
+}
+
+.secondary-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.secondary-button:hover {
+    background-color: #5a6268;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.session-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.game-code {
+    font-family: monospace;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.invite-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.invite-button:hover {
+    background-color: #218838;
+}
+
 .game-content {
     display: flex;
     flex-direction: column;
